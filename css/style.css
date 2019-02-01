@@ -1,0 +1,138 @@
+body {
+	background-color: #f2f3f4;
+	color: #414A4C;
+	font-family: "SanFrancisco", "Helvetica Neue", helvetica, sans-serif;
+	line-height: 1.7em;
+}
+
+a, a:hover {
+	color: #007bff;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	margin: auto;
+}
+
+blockquote {
+	border-left: solid 2pt rgba(0,0,0,0.5);
+	opacity: 0.75;
+	margin: 0;
+	padding: 1px 2em;
+}
+
+ul.reset {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+code, pre {
+	padding: 0.5em;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 10pt;
+}
+
+div.container {
+	max-width: 95%;
+	width: 800px;
+	margin: auto;
+	padding-bottom: 3em;
+}
+
+nav {
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+}
+nav li:after {
+	content: "  \2022  ";
+}
+nav li:last-child:after {
+	content: none;
+}
+
+header h1 {
+	font-weight: normal;
+	letter-spacing: -3pt;
+}
+
+header h1 a, header a {
+	color: black;
+}
+
+header {
+	font-size: 1.5em;
+	padding-top: 0.5em;
+	text-align: center;
+}
+
+article {
+	margin: 2em 0;
+	padding: 1em;
+}
+
+article footer {
+	text-align: right;
+}
+
+aside {
+	margin: auto;
+	max-width: 40%;
+}
+
+footer {
+	text-align: center;
+	font-size: 0.9em;
+	clear: both;
+	padding-top: 1em;
+}
+
+#plugin-search-input {
+	width: 100%;
+	padding: 0.15em 1em 0;
+}
+
+.read-more {
+	text-align: right;
+}
+
+.button {
+	color: black;
+	border: solid 1px black;
+	padding: 0.5em 1em;
+}
+
+.button:hover {
+	color: #007bff;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float:right;
+}
+
+::selection {
+	background: #fc0fc0;
+	color: white;
+}

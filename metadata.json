@@ -1,0 +1,10 @@
+{
+	"author": "Soemarko",
+	"email": "soemarko@ridwan.org",
+	"website": "https://soemarko.com",
+	"version": "1.0",
+	"releaseDate": "2019-02-01",
+	"license": "MIT",
+	"compatible": "3.0",
+	"notes": "I have only tested this against Bludit 3.6.1+"
+}
