@@ -8,6 +8,7 @@
 			<h1>
 				<a href="<?=$site->url()?>"><?=$site->title()?></a>
 			</h1>
+			<p><small><?=$site->slogan()?></small></p>
 		</header>
 		<nav>
 			<?php include(THEME_DIR_PHP.'nav.php') ?>
